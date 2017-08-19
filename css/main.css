@@ -1,0 +1,120 @@
+body {
+
+
+}
+
+* {
+	border: 0;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/**NAV*****/
+
+nav {
+	background: #352d2f;
+	font-family: 'Titillium Web', sans-serif;
+	min-height: 50px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 
+}
+
+.logo {
+	background: red;
+	display: inline-block;
+	margin-left: 10%;
+	padding: 9px 10px 10px;
+	text-align: center;
+}
+
+.sitenav {
+	display: inline-block;
+	float: right;
+	margin-right: 10%;
+}
+
+.sitenav li {
+	display: inline-block;
+}
+
+.sitenav a {
+	color: white;
+	display: inline-block;
+	padding: 16px 20px;
+	font-size: 14px;
+}
+
+li.active a{
+	border-bottom: 3px solid white;
+}
+
+/**HEADER**/
+
+#intro {
+	min-height: 600px;
+	background: #352d2f;
+	color: white;
+	font-family: 'Teko', sans-serif;
+	position: relative;
+	text-align: center;
+}
+
+#intro h1 {
+	font-size: 50px;
+    letter-spacing: 10px;
+    margin: 0 auto;
+    padding: 15% 0 5%;
+    width: 60%;
+}
+
+#intro button {
+	background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin: 0;
+}
+
+#intro a {
+	bottom: 30px;
+    color: inherit;
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+
+#intro p {
+	font-size: 16px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -8,7 +8,6 @@ body {
     margin: 0;
     outline: none;
     padding: 0;
-    font-family: 'Titillium Web', sans-serif;
 }
 
 /**NAV*****/
@@ -30,7 +29,7 @@ nav a {
 }
 
 .logo {
-	background: red;
+	background: #F63C3C;
 	display: inline-block;
 	margin-left: 10%;
 	padding: 9px 10px 10px;
@@ -70,11 +69,12 @@ li.active a{
 }
 
 #intro h1 {
-	font-size: 50px;
+	font-size: 80px;
     letter-spacing: 10px;
     margin: 0 auto;
     padding: 15% 0 5%;
     width: 60%;
+    line-height: 70px;
 }
 
 #intro button {
@@ -87,7 +87,7 @@ li.active a{
 }
 
 #intro a {
-	bottom: 30px;
+	bottom: 40px;
     color: inherit;
     display: block;
     position: absolute;
@@ -100,21 +100,173 @@ li.active a{
 }
 
 
+/**Explore More**/
 
+#explore {
+	margin: 0 auto;
+	padding: 3% 0;
+	text-align: center;
+	width: 59%;
+	font-family: 'Teko', sans-serif;
+}
 
+#explore h1 {
+	font-size: 30px;
+	letter-spacing: 5px;
+	line-height: 30px;
+}
 
+#explore button {
+	background: #F63C3C;
+	color: white;
+	cursor: pointer;
+	padding: 10px 15px;
+	/**why is there a border here?**/
+	border: 1px solid white;
+	margin-top: 24px;
+}
 
+/**Projects**/
 
+#projects {
+	color: white;
+	font-family: 'Teko', sans-serif;
+	height: 600px;
+}
 
+.main-feature {
+	background: #F63C3C;
+	float: left;
+	height: 550px;
+	width: 50%;
+}
 
+.main-feature div {
+	font-size: 14px;
+    margin: 50% 10% 3%;
+}
 
+.main-feature h2 {
+	font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0 10%;
+}
 
+.main-feature p {
+	font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0 10%;
+    width: 45%;
+}
 
+.side-feature {
+	 background-color: #352d2f;
+    float: right;
+    height: 275px;
+    width: 50%;
+}
 
+.side-feature h2 {
+	font-size: 30px;
+    letter-spacing: 2px;
+    margin: 20% 10% 0;
+}
 
+.side-feature p {
+	font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0 10%;
+    width: 45%;
+}
 
+.side-feature:nth-child(3) {
+	background: #30282a;
+}
 
+.bottom-feature {
+	background: #30282a;
+	height: 50px;
+	text-align: center;
+	clear: both;
+	padding: 10px 0;
+}
 
+.bottom-feature a {
+	order-bottom: 3px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 5px;
+    width: 14%;
+}
 
+/**Info**/
 
+#info {
+	background-color: #fafafa;
+    font-family: 'Teko', sans-serif;
+    padding: 3% 0;
+}
+
+#info div {
+	display: inline-block;
+	width: 35%;
+}
+
+#info div:first-child {
+	margin-left: 10%;
+}
+
+#info i {
+	color: #f63c3c;
+}
+
+#info h3 {
+	margin-left: 0;
+}
+
+#info p {
+	font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+}
+
+#social {
+	background-color: #fafafa;
+    padding: 3% 0;
+}
+
+#social > div {
+	margin: 0 auto;
+    width: 80%;
+}
+
+#social h2 {
+	font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+#social p {
+	font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    margin: 0 0 1%;
+}
+
+#social-icons > a {
+	background-color: #30282a;
+    color: #fff;
+    display: inline-block;
+    padding: 40px 74px;
+    text-align: center;
+}
+
+#social h3 {
+	margin: 0;
+}
+
+#social-icons > a:nth-child(n+2) {
+margin-left: 2%;
+}
 

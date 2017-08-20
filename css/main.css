@@ -1,7 +1,3 @@
-body {
-
-
-}
 
 * {
 	border: 0;
@@ -25,7 +21,6 @@ nav {
 nav a {
 	color: white;
 	text-decoration: none;
-	padding: 
 }
 
 .logo {
@@ -194,12 +189,13 @@ li.active a{
 }
 
 .bottom-feature a {
-	order-bottom: 3px solid #fff;
+	border-bottom: 3px solid #fff;
     color: #fff;
     font-size: 14px;
     margin: 0 auto;
     padding: 5px;
     width: 14%;
+    text-decoration: none;
 }
 
 /**Info**/
@@ -301,7 +297,7 @@ margin-left: 2%;
 	font-size: 16px;
 	font-style: normal;
 	letter-spacing: 1px;
-	margin-left: 2% 0 1%;
+	margin: 2% 0 1%;
 }
 
 #contact a {

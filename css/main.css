@@ -260,6 +260,7 @@ li.active a{
     display: inline-block;
     padding: 40px 74px;
     text-align: center;
+    text-decoration: none;
 }
 
 #social h3 {
@@ -269,4 +270,134 @@ li.active a{
 #social-icons > a:nth-child(n+2) {
 margin-left: 2%;
 }
+
+/**Contact**/
+
+#contact {
+	background: #30282a;
+	font-family: 'Teko', sans-serif;
+	padding: 150px;
+}
+
+#contact div {
+	background: #f63c3c;
+	color: white;
+	margin: 0 auto;
+	padding: 45px 25px;
+	text-align: center;
+	width: 35%;
+}
+
+#contact i {
+	margin: 1%;
+}
+
+#contact address {
+	font-size: 14px;
+}
+
+#contact span {
+	display: inline-block;
+	font-size: 16px;
+	font-style: normal;
+	letter-spacing: 1px;
+	margin-left: 2% 0 1%;
+}
+
+#contact a {
+	color: white;
+	text-decoration: none;
+}
+
+/**Footer**/
+footer {
+	font-family: 'Teko', sans-serif;
+	margin: 0 auto;
+	padding: 0 0 3%;
+	width: 65%;
+}
+
+.col-25 {
+	float: left;
+	margin: 3%;
+	width: 20%;
+}
+
+#footer h3 {
+	margin-left: 0;
+}
+
+#footer > div > hr {
+	border: 3px solid black;
+}
+
+#footer ul {
+	font-size: 12px;
+	padding-top: 5px;
+	list-style: none;
+}
+
+#footer li a {
+	color: black;
+	text-decoration: none;
+}
+
+.col-50 {
+	float: left;
+	margin: 3% 0;
+	width: 45%;
+}
+
+.col-50 ul {
+	float: left;
+	width: 50%;
+}
+
+.col-25 {
+	float: left;
+	margin: 3%;
+	width: 20%;
+}
+
+#footer > hr {
+	border: 1px solid black;
+	clear: left;
+	margin-top: 25px;
+}
+
+#footer div:last-child {
+	clear: both;
+}
+
+#footer span {
+	font-size: 12px;
+}
+
+#footer div:last-child ul {
+	float: right;
+}
+
+#footer div:last-child li {
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
